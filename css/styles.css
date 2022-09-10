@@ -87,8 +87,7 @@ text-decoration: none;
 
     color: var(--main-color);
 
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: color 250ms var(--cubic )
 }
 
 .link:hover{
@@ -107,7 +106,6 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: var(--active-color);
-
 }
 
 .overlay{
@@ -145,6 +143,7 @@ letter-spacing: 0.06em;
 color: var(--white-color);
 background-color: var(--active-color);
 cursor: pointer;
+transition: background-color 250ms var(--cubic )
 }
 
 .button-hero:hover, .button-hero:focus{
@@ -170,8 +169,7 @@ color: var(--main-color);
 
 cursor: pointer;
 
-transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+transition: color 250ms var(--cubic ), background-color 250ms var(--cubic ) ; 
 }
 
 .button2:not(:last-child){
@@ -309,8 +307,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
     text-decoration: none;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: color 250ms var(--cubic )
 }
 
 .address-item:hover , .address-item:focus{
@@ -337,8 +334,7 @@ text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--white-color);
     text-decoration: none;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: color 250ms var(--cubic ); 
 }
 
 .footer-adress:hover , .footer-adress:focus{
@@ -362,8 +358,7 @@ color: var(--active-color);
     letter-spacing: 0.03em;
     color: var(--link-color-rgba);
     text-decoration: none;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: color 250ms var(--cubic ); 
 }
 
 .link-contact:hover , .link-contact:focus{
@@ -475,6 +470,7 @@ border: 1px solid var(--bored-color);
 
 .card{
     display: block;
+    transition: box-shadow 250ms var(--cubic ); 
 }
 
 .portfolio-card-description {
@@ -587,8 +583,7 @@ border: 1px solid var(--bored-color);
     justify-content: center;
     color: var(--social-links-color);
     border-color: var(--social-links-color);
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: color 250ms var(--cubic ), border-color 250ms var(--cubic ) ;
 }
 
 .clients-link:hover, .clients-link:focus {
@@ -624,8 +619,7 @@ border: 1px solid var(--bored-color);
     align-items: center;
     color: var(--white-color);
     background-color: rgba(255, 255, 255, 0.1);
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: background-color 250ms var(--cubic ) ;
 }
 
 .link-social:hover, .link-social:focus {
@@ -646,8 +640,7 @@ border: 1px solid var(--bored-color);
     justify-content: center;
     align-items: center;
     color: var(--social-links-color);
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
+    transition: color 250ms var(--cubic ), background-color 250ms var(--cubic ) ;
 }
 
 .social-link:hover, .social-link:focus {
